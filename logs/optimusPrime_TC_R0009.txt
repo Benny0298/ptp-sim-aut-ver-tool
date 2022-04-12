@@ -1,0 +1,80 @@
+Unique Src Values:  ['10.0.0.204' '10.0.0.203' '10.0.0.201' '10.0.0.200']
+Unique Msg IDs:  [array([11,  0,  8,  9]), array([1]), array([1]), array([1])]
+--------------------------------------------------------------------
+--- Warning(s) -----------------------------------------------------
+--------------------------------------------------------------------
+- Sync -
+--------------------------------------------------------------------
+- DlyReq -
+--------------------------------------------------------------------
+- FollowUp -
+--------------------------------------------------------------------
+- DlyResp -
+--------------------------------------------------------------------
+- Ann -
+--------------------------------------------------------------------
+--- Msg Type Specific Overview -------------------------------------
+--------------------------------------------------------------------
+--- sync info ---
+
+src: 10.0.0.204
+first ts: 1639226962.9866202 s
+last ts:  1639227275.3197713 s
+Sync Log MP: 0
+Expected Avg Sync Interval:   1 s
+Calculated Avg Sync Interval: [0.9978694923388691] s
+--------------------------------------------------------------------
+--- dely req info ---
+
+src: 10.0.0.204
+first ts: 1639226964.6042662 s
+last ts:  1639227259.6812928 s
+Unexpected Log MP: 127
+Calculated Avg DlyReq Interval: 1.010537762347966 s
+
+src: 10.0.0.203
+first ts: 1505434586.3737848 s
+last ts:  1639227268.056629 s
+Unexpected Log MP: 127
+Calculated Avg DlyReq Interval: 437230.9858916476 s
+
+src: 10.0.0.201
+first ts: 1639226965.1610994 s
+last ts:  1639227255.1899042 s
+Unexpected Log MP: 127
+Calculated Avg DlyReq Interval: 1.0070444610383775 s
+--------------------------------------------------------------------
+--- follow up info ---
+
+src: 10.0.0.204
+first ts: 1639226962.9866765 s
+last ts:  1639227275.3198519 s
+FollUp LogMP: 0
+Expected Avg FollUp Interval:   1 s
+Calculated Avg FollUp Interval: 0.9978695700343806 s
+--------------------------------------------------------------------
+--- delay response info ---
+
+src: 10.0.0.204
+first ts: 1639226964.142569 s
+last ts:  1639227268.0568044 s
+DlyResp LogMP: 0
+Expected Avg DlyResp Interval:   1 s
+Calculated Avg DlyResp Interval: 0.9931837756649341 s
+--------------------------------------------------------------------
+--- announce info ---
+
+src: 10.0.0.204
+first ts: 0.0 s
+last ts:  0.0 s
+Ann LogMP: 1
+Expected Avg Ann Interval:   2 s
+Calculated Avg Ann Interval: 0.0 s
+--------------------------------------------------------------------
+--- Msg Count Overview ---
+        Sync  DlyReq  FollUp  DlyResp  Ann  Sig  Man  Total
+msgCnt   313     886     313      886  157    0    0   2555
+--------------------------------------------------------------------
+--- Warning Count Overview ---
+      Zero  Negative  Backwards  Other
+wCnt   157         0          0      0
